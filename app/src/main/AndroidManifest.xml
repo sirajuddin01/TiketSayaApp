@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tiketsaya.astahub.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Profile.EditProfile"></activity>
+        <activity android:name=".Profile.MyTicketsDetails" />
+        <activity android:name=".Profile.MyProfile" />
+        <activity android:name=".Tickets.SuccessBuyTicket" />
+        <activity android:name=".Tickets.TicketBuying" />
+        <activity android:name=".Tickets.TicketPreviewDetails" />
+        <activity android:name=".HomeAct" />
+        <activity android:name=".Register.SuccessRegister" />
+        <activity android:name=".Register.Register2" />
+        <activity android:name=".Register.Register1" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".GetStartedAct" />
+        <activity android:name=".SplashAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
